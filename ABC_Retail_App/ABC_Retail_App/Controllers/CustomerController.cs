@@ -1,4 +1,8 @@
-﻿using ABC_Retail_App.Models;
+// Code Attribution:
+// 1. ASP.NET Core MVC: How to create CRUD operations in MVC — TutorialsTeacher — https://www.tutorialsteacher.com/mvc/mvc-crud-operations
+// 2. ASP.NET Core MVC with Entity Framework Core: CRUD Operations — Microsoft Docs — https://learn.microsoft.com/en-us/aspnet/core/data/ef-mvc/crud
+
+using ABC_Retail_App.Models;
 using Azure;
 using Azure.Data.Tables;
 using Microsoft.AspNetCore.Mvc;
