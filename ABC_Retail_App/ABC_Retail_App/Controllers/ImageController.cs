@@ -4,13 +4,11 @@
 // -----------------------------------------------------------------------
 // Image Controller
 // Manages uploading, downloading, and deleting images using Azure Blob Storage.
-//
-// Code Attribution:
-// 1. Microsoft Learn - Upload a blob with .NET - https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-upload?tabs=dotnet
+// 3. Microsoft Learn - Upload a blob with .NET - https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-upload?tabs=dotnet
 //    Core logic for BlobServiceClient, BlobContainerClient, BlobClient, and UploadAsync.
-// 2. Microsoft Learn - Download a blob with .NET - https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-download?tabs=dotnet
+// 4. Microsoft Learn - Download a blob with .NET - https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-download?tabs=dotnet
 //    Core logic for DownloadAsync.
-// 3. Microsoft Learn - Delete a blob with .NET - https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-delete?tabs=dotnet
+// 5. Microsoft Learn - Delete a blob with .NET - https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-delete?tabs=dotnet
 //    Core logic for DeleteIfExistsAsync.
 // -----------------------------------------------------------------------
 
