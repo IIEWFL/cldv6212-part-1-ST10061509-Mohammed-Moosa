@@ -24,7 +24,7 @@ using System.Threading.Tasks;
 using System;
 using Azure; // Required for Azure.RequestFailedException
 
-namespace ABC_Retail_App.Controllers // ⭐ Ensure this matches your project's EXACT default namespace ⭐
+namespace ABC_Retail_App.Controllers 
 {
     public class ImageController : Controller
     {
@@ -77,11 +77,7 @@ namespace ABC_Retail_App.Controllers // ⭐ Ensure this matches your project's E
                 HttpHeaders = blobHttpHeaders,
                 TransferOptions = new Azure.Storage.StorageTransferOptions
                 {
-                    // InitialTransferLength defines the size of the first chunk.
-                    // If you face timeouts on large files, rely on HTTP client timeouts
-                    // or other retry policies rather than this specific property.
-                    InitialTransferLength = 1024 * 1024 // 1MB chunk size
-                    // ⭐ Removed MaximumTransferValidationLength as it does not exist ⭐
+                    InitialTransferLength = 1024 * 1024 
                 }
             };
 
