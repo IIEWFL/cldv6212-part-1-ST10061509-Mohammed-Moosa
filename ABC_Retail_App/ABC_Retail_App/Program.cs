@@ -25,7 +25,6 @@ builder.Services.AddSingleton(x => new ShareServiceClient(storageConnectionStrin
 
 var app = builder.Build();
 
-// ⭐ NEW: Centralized Asynchronous Initialization of Azure Storage Resources ⭐
 // This section ensures all necessary containers/tables/queues/shares exist once at startup.
 using (var scope = app.Services.CreateScope())
 {
